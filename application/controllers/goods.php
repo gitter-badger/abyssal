@@ -27,6 +27,7 @@
 		
 		public function detail($id){
 			$content['data'] = $this->Goods_Model->get_detail($id);
+			$content['id'] = $id;
 			$this->load->view('detailgoods',$content);
 		}
 	}

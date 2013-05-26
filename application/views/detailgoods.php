@@ -1,4 +1,5 @@
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
 <title>Abyssal</title>
 <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>css/main.css" >
@@ -8,6 +9,7 @@
 <link type="text/css" href="<?php echo base_url(); ?>css/bottom.css" rel="stylesheet" />
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.pikachoose.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/main.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/functional_script.js"></script>
 <script>
 $(document).ready(
 	function (){
@@ -17,6 +19,36 @@ $(document).ready(
 </script>
 </head>
 <body >
+	<div id='fb-root'></div>
+	<script src='http://connect.facebook.net/en_US/all.js'></script>
+	<script> 
+      FB.init({appId: "YOUR_APP_ID", status: true, cookie: true});
+
+      function postToFacebook() {
+
+        // calling the API ...
+        var obj = {
+          method: 'feed',
+          redirect_uri: base_url+"goods/detail/"+<?php echo $id; ?>,
+          link: 'https://developers.facebook.com/docs/reference/dialogs/',
+          picture: 'http://fbrell.com/f8.jpg',
+          name: 'Facebook Dialogs',
+          caption: 'Reference Documentation',
+          description: 'Using Dialogs to interact with people.'
+        };
+
+        function callback(response) {
+			facebook(<?php echo $id; ?>);
+        }
+        FB.ui(obj, callback);
+      }
+	  
+	function postToTweeter() {
+		tweeter(<?php echo $id; ?>);
+	}
+	
+    </script>
+
 	<div class="wrapper">
     	<header>
         	<a class="logo-img-container trans-all" href="home.php">
@@ -65,21 +97,21 @@ $(document).ready(
                         <li><p><?php echo $goods->description; ?></p></li>
                         <li><h3>Rp. <?php echo $goods->price; ?></h3></li>
                         <li>
-                        	<h3>LIKE / DISLIKE</h3>
-                            <a class="share-btn like-btn" target="_blank">
+                        	<h3>LIKE</h3>
+                            <a class="share-btn like-btn" target="_blank" onclick="vote(<?php echo $id; ?>)">
                               <span class="share-btn-action share-btn-plus">Vote Up</span>
-                              <span class="share-btn-count">222</span>
+                              <span class="share-btn-count"><?php echo $goods->vote; ?></span>
                             </a>
                         </li>
                         <li>
                         	<h3>SHARE</h3>
-                            <a class="share-btn" target="_blank">
+                            <a class="share-btn" target="_blank" onclick="postToTweeter()">
                               <span class="share-btn-action share-btn-tweet">Tweet</span>
-                              <span class="share-btn-count">481</span>
+                              <span class="share-btn-count"><?php echo $goods->tweeter; ?></span>
                             </a>
-                            <a class="share-btn" target="_blank">
+                            <a class="share-btn" target="_blank" onclick="postToFacebook()">
                               <span class="share-btn-action share-btn-like">Share</span>
-                              <span class="share-btn-count">516</span>
+                              <span class="share-btn-count"><?php echo $goods->facebook; ?></span>
                             </a>
                         </li>
                     </ul>
