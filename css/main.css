@@ -173,10 +173,11 @@ p
 }	
 .desc-container	.story
 {
-	padding: 10px 0 0 0;
+	padding: 60px 0 0 0;
 	width: 90%;
 	margin: 0 auto;
 	font-size: 20px;	
+	font-family: sans-serif;
 }
 .story p
 {

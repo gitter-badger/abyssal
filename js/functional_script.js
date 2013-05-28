@@ -1,4 +1,4 @@
-var base_url = "http://localhost/abyssal/";
+var base_url = "http://localhost/github/abyssal/";
 
 function vote(id)
 {	
