@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Abyssal & Pelagic</title>
-<link type="text/css" rel="stylesheet" href="css/main.css" >
+<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/css/main.css" >
 <!--<link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>-->
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/main.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-latest.js"></script>
@@ -36,7 +36,7 @@ $(document).ready(function() {
                 </ul>
             </nav>
         </header>
-        <hr class="sexy_line">
+        <!--<hr class="sexy_line">-->
         <div id="main" class="content">
             <div class="top-wrapper">
                 <ul class="top-item-img">

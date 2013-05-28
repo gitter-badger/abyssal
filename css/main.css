@@ -84,6 +84,7 @@ p
 {
 	font-family: sans-serif;	
 	font-size: 16px;
+	line-height: 2;
 }
 .wrapper {
 	height: auto;
@@ -139,11 +140,10 @@ p
 	clear:both;	
 	height: auto;
 	width: 100%;
-	margin:30px 0 0 0;
+	margin: 150px 0 0 0;
 }
 .top-wrapper
-{
-	margin: 50px 0 0 0;	
+{	
 }
 .top-item-img
 {

@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Abyssal</title>
-<link type="text/css" rel="stylesheet" href="css/main.css" >
+<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/css/main.css" >
 <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/jquery-latest.js"></script>
