@@ -3,11 +3,13 @@
 <title>Abyssal</title>
 <link type="text/css" rel="stylesheet" href="css/main.css" >
 <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+
 <script type="text/javascript" src="js/jquery-latest.js"></script>
 <script type="text/javascript" src="js/jquery-min 1.8.3.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/waypoints.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/main.js"></script><br>
+
 <script>
 $(document).ready(function() {
     $('.viewport').mouseenter(function(e) {
@@ -50,11 +52,11 @@ $(document).ready(function() {
             </a>
             <nav class="nav-menu-container">
             	<ul class="nav">
-                	<li><a href="<?php echo base_url(); ?>home">Home</a></li>
-                    <li><a href="<?php echo base_url(); ?>story">Story</a></li>
-                    <li><a href="<?php echo base_url(); ?>goods">Goods</a></li>
-                    <li><a href="<?php echo base_url(); ?>journal">Journal</a></li>
-                    <li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
+                	<li><a href="home.php">Home</a></li>
+                    <li><a href="story.php">Story</a></li>
+                    <li><a href="goods.php">Goods</a></li>
+                    <li><a href="journal.php">Journal</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <div class="effect"></div>
                 </ul>
             </nav>

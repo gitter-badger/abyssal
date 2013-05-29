@@ -1,12 +1,12 @@
 <html>
 <head>
 <title>Abyssal</title>
-<link type="text/css" rel="stylesheet" href="css/main.css" >
+<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/css/main.css" >
 <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/jquery-latest.js"></script>
-<script type="text/javascript" src="js/jquery-min 1.8.3.js"></script>
-<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/main.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-latest.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-min 1.8.3.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-ui.min.js"></script>
 <script>
 $(document).ready(function() {
     $('.viewport').mouseenter(function(e) {
@@ -39,48 +39,33 @@ $(document).ready(function() {
         <hr class="sexy_line">
         <div id="journal-main" class="content">
         	<div class="left-side">
+			<?php foreach($data as $blog) { ?>
             	<article class="art-box art trans-all">
                 	<h3>
-                    	<img src="img/full-wallet3.jpg">
-                        <a href="detailjournal.php"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></a>
+                    	<img src="<?php echo base_url(); ?>/img/<?php echo $blog->picture; ?>">
+                        <a href="detailjournal.php"><span><?php echo $blog->title; ?></span></a>
                     </h3>
-                    <div class="author">By Agung D L G S<span> - 20 Desember 2013</span></div>
-                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc.</div>
-                    <a href="detailjournal.php" class="read-more">read more</a>
+                    <div class="author"><?php echo $blog->author; ?><span> - <?php echo $blog->date; ?></span></div>
+                    <div class="desc"><?php echo $blog->content; ?></div>
+                    <a href="detailjournal/<?php echo $blog->id_blog; ?>" class="read-more">read more</a>
                 </article>
-                <article class="art-box art trans-all">
-                	<h3>
-                    	<img src="img/full-wallet2.jpg">
-                        <a href="detailjournal.php"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></a>
-                    </h3>
-                    <div class="author">By Agung D L G S<span> - 20 Desember 2013</span></div>
-                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc.</div>
-                    <a href="detailjournal.php" class="read-more">read more</a>
-                </article>
-                <article class="art-box art trans-all">
-                	<h3>
-                    	<img src="img/full-wallet1.jpg">
-                        <a href="detailjournal.php" ><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span></a>
-                    </h3>
-                    <div class="author">By Agung D L G S<span> - 20 Desember 2013</span></div>
-                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc.</div>
-                    <a href="detailjournal.php" class="read-more">read more</a>
-                </article>
+			<?php } ?>
             </div>
             <div class="right-side">
             	<div class="categ-container">
                 	<h3>Categories</h3>
                     <ul>
-                    	<li><a>category A (1)</a></li>
-                        <li><a>category B (1)</a></li>
+					<?php foreach($data as $blog) { ?>
+                    	<li><a><?php echo $blog->category; ?></a></li>
+					<?php } ?>
                     </ul>
                 </div>
                 <div class="arcv-container">
                 	<h3>Archieves</h3>
                     <ul>
-                    	<li><a>Agustus 2012 (4)</a></li>
-                        <li><a>September 2012 (2)</a></li>
-                        <li><a>Oktober 2012 (5)</a></li>
+					<?php foreach($data1 as $blog) { ?>
+                    	<li><a><?php echo $blog->date1; ?></a></li>
+					<?php } ?>
                     </ul>
                 </div>
                 <div class="tags-container">

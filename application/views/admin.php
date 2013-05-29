@@ -3,25 +3,42 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Abyssal & Pelagic</title>
-<link href="<?php echo base_url(); ?>/css/main.css" rel="stylesheet" type="text/css">
+<!--<link href="style/style.css" rel="stylesheet" type="text/css">-->
 <!--<link media="screen and (max-width: 800px)" href="style/small.css" rel="stylesheet" type="text/css">-->
 <script type="text/javascript" src="js/jquery-min 1.8.3.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <link rel="icon" href="img/icon.png" sizes="32x32">
+<script type="text/javascript" charset="utf-8">
+$(function() {
+    adjustStyle($(this).width());
+    $(window).resize(function() {
+        adjustStyle($(this).width());
+    });
+});
+
+</script>
+<style>
 <style>
 .login_box
 {
-	width: 30%;
 	box-shadow: 0 0 17px #744150;
-	border-radius: 10px;
+	border-radius: 20px;
 	top: 40%;
 	color: #744150;
-	height: 30%;
+	height: 30%;	
 	background: #744150;
-	padding: 50px 50px 30px 50px;
-	margin: 0 auto;
+	padding:50px;
+	margin:0 auto;
 }
-
+.login_username
+{
+	width:50%;
+	position:absolute;
+	left:50%;
+	margin-left:-25%;
+	top:15%;
+	height:15%;
+}
 .login_username input,.login_password input
 {
 	width:100%;
@@ -30,98 +47,97 @@
 	box-shadow:0 0 10px inset;
 	border-radius:10px;
 	padding:3%;
+	font-family:"Trebuchet MS";
 	font-size:18px;
 	font-weight:bolder;
-	font-family: unica;
 }
 .login_username input:hover,.login_password input:hover
 {	
 	box-shadow:0 0 10px inset;
-	color:#744150;
+	color:#061a35;
 }
 ::-webkit-input-placeholder {
-	color:#744150;	
+	color:#159;	
    	text-align:center;
 	opacity:0.4;
-	font-family: unica;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color:#744150;	
-	font-family: unica;
+   color:#159;	
+
    	text-align:center;
 	opacity:0.4;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color:#744150;	
+   color:#159;	
    	text-align:center;
 	opacity:0.4;
-	font-family: unica;
 }
 
 :-ms-input-placeholder {  
-   color:#744150;	
+   color:#159;	
    	text-align:center;
 	opacity:0.4;
-	font-family: unica;
 }
-.login_password,.login_username
+.login_password
 {
-	width:90%;
+	width:50%;
+	position:absolute;
+	left:50%;
+	margin-left:-25%;
+	top:40%;
 	height:15%;
-	margin:10px auto;
 }
 .login_button
 {
-	width:80%;
-	margin:10px auto;
+	width:30%;
+	position:absolute;
+	left:50%;
+	margin-left:-15%;
+	top:75%;
+	height:15%;
 }
 .login_button input
 {
-	border: none;
-	width: 100%;
-	background: #411723;
-	color: #FFF;
-	text-align: center;
-	border-radius: 5px;
-	cursor: pointer;
-	font-family: unica;
-	font-size: 16px;
+	border:none;
+	width:100%;
+	height:100%;
+	background:#91ACC0;
+	color:white;
+	text-align:center;	
+	border-radius:10px;
+	cursor:pointer;
+	font-family:"Trebuchet MS";
+	font-size:16px;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	transition: all 0.5s ease;
-	box-sizing: border-box;
-	padding: 10px 0;
-	box-shadow: 0 0 2px #361D24;
-	margin: 20px auto 0;
 }
 
 .login_button input:hover
 {
-	color: #744150;
-	box-shadow: 0 0 3px #744150;	
-	background: rgba(163, 126, 137, 0.85);
+	opacity:0.8;
 }
-.logo-admin-container
+.logo-img-container
 {
 	margin: 0 auto 0 auto;
 display: block;
 width: 50%;	
 }
-.logo-admin-container img
+.logo-img-container img
 {
 	margin: 0 auto;
-	width: 100%;
-	height: 100%;	
+width: 100%;
+height: 100%;	
 }
 </style>
 </head>
 <body>
 <div class="main">
-    <a class="logo-admin-container trans-all" href="home.php">
+    <a class="logo-img-container trans-all" href="home.php">
             	<img src="img/logo.png">
     </a>
     <div class="login_box">
@@ -133,7 +149,7 @@ width: 50%;
     </div>
 </div>
 <footer>
-	<div class="footer"></div>
+	<div class="footer">© 2013 Agraprana Design and Built,Indonesia</div>
 </footer>
 </body>
 </html>

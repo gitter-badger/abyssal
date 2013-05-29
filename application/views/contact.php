@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Abyssal</title>
-<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/css/main.css" >
+<link type="text/css" rel="stylesheet" href="css/main.css" >
 <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/jquery-latest.js"></script>
@@ -27,11 +27,11 @@ $(document).ready(function() {
             </a>
             <nav class="nav-menu-container">
             	<ul class="nav">
-                	<li><a href="<?php echo base_url(); ?>home">Home</a></li>
-                    <li><a href="<?php echo base_url(); ?>story">Story</a></li>
-                    <li><a href="<?php echo base_url(); ?>goods">Goods</a></li>
-                    <li><a href="<?php echo base_url(); ?>journal">Journal</a></li>
-                    <li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
+                	<li><a href="home.php">Home</a></li>
+                    <li><a href="story.php">Story</a></li>
+                    <li><a href="goods.php">Goods</a></li>
+                    <li><a href="journal.php">Journal</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                     <div class="effect"></div>
                 </ul>
             </nav>
@@ -42,13 +42,13 @@ $(document).ready(function() {
 	            <h3>Get in Touch</h3>
 				<p>If you have an enquiry regarding an exciting new project, or would like to discuss any future projects you may have in mind, feel free to drop me a mail. Equally, if you are just passing by and simply want to say hello, then you are more than welcome.For project enquiries please use the Quote Form.</p>
 				<h5>Thanks for your visit!!</h5>
-            	<form>
-                	<input type="text" placeholder="name">
-                    <input type="text" placeholder="email">
-                    <input type="text" placeholder="phone">
-                    <textarea placeholder="send u a message"></textarea>
+            	<?php echo form_open("contact/post_message"); ?>
+                	<input type="text" placeholder="name" name='name'>
+                    <input type="text" placeholder="email" name='email'>
+                    <input type="text" placeholder="phone" name='phone'>
+                    <textarea name='message' placeholder="send u a message"></textarea>
                     <input type="submit" value="send">
-                </form>
+                <?php echo form_close(); ?>
             </div>
         </div>
     </div>

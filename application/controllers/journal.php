@@ -16,7 +16,8 @@
 		public function index()
 		{
 			$content['data'] = $this->Journal_Model->get_post();
-			$this->load->view('journal');
+			$content['data1'] = $this->Journal_Model->get_month();
+			$this->load->view('journal',$content);
 		}
 	}
 ?>

@@ -6,9 +6,20 @@
 		}
 		
 		var $table = 'blog';
+		var $table2 = 'has_tag';
 		
 		function get_post(){
 			$query = $this->db->get($this->table);
+			return $query->result();
+		}
+		
+		function get_category(){
+			$this->db->select('category');
+			return $this->db->get($this->table)->result();
+		}
+		
+		function get_month(){
+			$query = $query = $this->db->query("SELECT DATE_FORMAT(date,'%M %Y') as date1 FROM ".$this->table);
 			return $query->result();
 		}
 		
@@ -20,6 +31,10 @@
 		function get_post_by_date($date){
 			$query = $this->db->get_where($this->table,array('date'=>$date));
 			return $query->result();
+		}
+		
+		function get_tag($id_blog){
+			$query = $this->db->get_where($this->table2,array('id_blog'=>$id_blog));
 		}
 		
 		function get_post_by_tag($tag){
