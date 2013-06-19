@@ -24,10 +24,11 @@
 	font-size:100px;	
 	font-family:dale;
 }
-*{
-	margin:0;
-	padding:0;	
+*{	
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 @font-face
 {
@@ -83,13 +84,12 @@ body {
 p
 {
 	font-family: sans-serif;	
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 2;
 }
 .wrapper {
-	height: auto;
-	min-height: 95%;
-	width: 1300px;
+	height: 100%;
+	width: 1280px;
 	background: #FFF;
 	margin: 0 auto;
 }
@@ -98,9 +98,9 @@ p
 {
 	margin: 0 auto 0 auto;
 	display: block;
-	width: 50%;
-	height: 25%;
-	padding: 2% 0 0 0;
+	width: 30%;
+	height: 15%;
+	padding: 0 0 0 0;
 }
 .logo-img-container img
 {
@@ -115,9 +115,9 @@ p
 .nav-menu-container
 {	
 	width: 80%;
-	height: 80px;
+	height: 40px;
 	margin: 0 auto;
-	padding: 45px 0 0 0;
+	padding: 0px 0 0 0;
 }
 .nav-menu-container ul li
 {
@@ -129,7 +129,7 @@ p
 	text-align: center;
 }
 .nav li a { 
-	font-size:25px;
+	font-size: 24px;
 }
 /* akhir header */
 
@@ -140,43 +140,52 @@ p
 	clear:both;	
 	height: auto;
 	width: 100%;
-	margin: 150px 0 0 0;
+	margin: 10px 0;
+	min-height: 420px;
 }
 .top-wrapper
-{	
+{
+    width: auto;
+	
 }
 .top-item-img
 {
     margin: 0 auto;
 	
-    width: 90%;
+    width: auto;
+    padding: 0 45px;
 }
 .top-item-img > li
 {
 	display: inline-block;
-	float: left;
 	margin: 0 3px;		
 }
+
 .desc-container
 {
  clear:both;
  text-align:center;	
- padding: 50px 0;
+ padding: 10px 0 0 0;
 }
-.desc-container .title
+.story-container
 {
-	font-size:30px;
+	 clear:both;	
+	 margin: 0px 0 0 0;
+}
+.desc-container .title,.story-container .title
+{
+	font-size: 20px;
+	color: #744150;
 }
 .desc-container .description
 {
-	padding:30px 0 0 0;
+	padding: 5px 0 0 0;
 }	
-.desc-container	.story
+.story-container	.story
 {
-	padding: 60px 0 0 0;
-	width: 90%;
-	margin: 0 auto;
-	font-size: 20px;	
+	padding: 15px 0 0 0;
+	line-height: 2;
+	font-size: 14px;	
 	font-family: sans-serif;
 }
 .story p
@@ -236,16 +245,19 @@ p
 		float: left;
 		width: 70%;
 		min-height: 100%;	
-		padding: 25px 0 0 0;
+		padding: 25px 0 10px 55px;
 	
 		height: auto;
-	}
+	
+		box-sizing: initial;
+}
 	.item-box
 	{
 		background: #DDD;
 		padding: 5px;
 		border-radius: 5px;
 		box-shadow: 0 0 2px #744150;
+
 		box-sizing: border-box;
 	}
 	.item-list
@@ -310,9 +322,10 @@ p
 		position: absolute;
         border-style: solid;
         border-color: transparent;
-		bottom: 56px;	
+		bottom: 52px;	
 		border-width: 10px 10px 0px 0;
-        border-right-color: #222;
+        
+		border-right-color: rgb(126, 65, 80);
         
 		left: 0;	
 	}
@@ -323,7 +336,7 @@ p
         border-style: solid;
 		bottom: 0px;	
 		width: 10px;
-		border-width: 28px 20px;
+		border-width: 26px 20px;
 		border-color: rgba(126, 65, 80, 0.7);
 		border-right-color:transparent;
 		right: -50;	
@@ -376,7 +389,7 @@ p
 		border-style: solid;
 		bottom: 0px;
 		width: 10px;
-		border-width: 28px 20px;
+		border-width: 26px 20px;
 		border-color: #7E4150 rgba(0, 0, 0, 0) #7E4150 #7E4150;
 		right: -50;
 	}
@@ -421,14 +434,17 @@ p
 		display: inline-block;
 		width: 59%;
 		float: left;	
-	}
+	
+}
 	.detail-container
 	{
 		float: left;
 		width: 30%;	
 	
-		margin: 0 0 0 20px;
-	}
+		margin: 0 0 0 30px;
+	
+		box-sizing: initial;
+}
 	/* ===================================================
 					akhir detalgoods.php
 	======================================================*/
@@ -470,9 +486,13 @@ p
     	border-bottom: solid 1px rgba(95, 95, 95, 0.33);	
 	}
 	.art h3 img
+
+
 	{
 		width: 98%;
 		-webkit-filter: blur(2px);
+
+
 		position: relative;	
 	
 		padding: 1%;
@@ -491,10 +511,12 @@ p
 		width: 55%;	
 	
 		cursor: pointer;
-	}
+	
+		box-sizing: content-box;
+}
 	.art:hover h3 a
 	{
-		padding: 5px 10px 5px 50px;
+		padding: 5px 10px 5px 68px;
 	}
 	.art .author
 	{
@@ -682,6 +704,7 @@ p
 	.contact-container form input[type="submit"]
 	{
 		display: block;
+
 		margin: 10px 0 0 0;	
 		-webkit-transition: all .8s ease;
 		transition: all .8s ease;
@@ -759,11 +782,11 @@ akhir main
 .footer-container
 {
 	text-align:center;
-	height: 5%;
+	height: 50px;
 	width: 100%;
 	clear: both;
-	padding: 40px 0;
-	margin: 0px auto;
+	padding: 0px 0;
+	margin: -70px auto;
 	
 }
 .footer-box
@@ -775,7 +798,8 @@ akhir main
 .footer-wrapper
 {
 	width: 70%;
-	margin:0 auto;	
+	margin: 0 auto;	
+	padding: 15px 0 0 0;
 }
 .footer-search
 {
@@ -788,7 +812,7 @@ akhir main
 	border-radius: 5px;
 	box-shadow: 0 0 1px #000;
 	font-family: unica;
-	font-size: 20px;
+	font-size: 17px;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 	-moz-transition: all .8s ease;
@@ -812,7 +836,7 @@ akhir main
 .footer-link-ext a
 {
 	float:left;	
-	font-size: 20px;
+	font-size: 17px;
 	color: #aaa;
 	
 }
@@ -872,10 +896,9 @@ akhir main
 .viewport {
     overflow: hidden;
     position: relative;
-    height: 330px;
-    width: 220px;
+    height: 320px;
+    width: 160px;
 	border: 1px solid rgba(119, 95, 69, 0.25);
-    border-radius:10px;
 	cursor:pointer;
     box-shadow: 0 0 1px #744150;
 }
@@ -903,7 +926,7 @@ akhir main
 /* --- Label configuration -------------------------------------------------------------- */
 .viewport a span {
     display: none;
-    font-size: 2em;
+    font-size: 20px;
     font-weight: bold;
     height: 100%;
     padding-top: 10%;
@@ -925,7 +948,8 @@ akhir main
   	-ms-transition: 0.7s ease-in-out;
   	transition: 0.7s ease-in-out; 
   	width: 110px;
-  	height: 2px;
+  	
+	height: 4px;
   	top:40px;
 	background: #B47F8E;
 	box-shadow: 0 1px 0 white; 
@@ -948,7 +972,7 @@ akhir main
     border:none;
     background: #cccccc;
     width:80%;
-    margin: 0 auto;
+    margin: 0px auto;
     background: -webkit-gradient( 
                 linear, 
                 0 0, 
@@ -1212,8 +1236,8 @@ table.pageme td {
 
 .buttons a {
 	margin-right: 17px;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 	display: inline-block;
 	float:left;
 	background-color: #eaeaea;
@@ -1229,6 +1253,7 @@ table.pageme td {
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+	margin-top: 7px;
 }
 
 .buttons a:active {
@@ -1261,11 +1286,11 @@ table.pageme td {
 .buttons span
 {
 	margin:0 10px 0 0;
-	font-size:20px;
+	font-size: 17px;
 	float:left;	
 }
 .buttons a img { margin: 11px auto;
-display:block; height: 24px;}
+display:block; height: 20px;}
 
 
 /* ANCHOR */
@@ -1310,4 +1335,17 @@ display:block; height: 24px;}
 {
 	color:#744150;
 	text-shadow:-1px -1px 2px #744150;
+}
+
+.side
+{
+	float: right;
+	width:50%;	
+	padding: 40px;
+}
+
+.story-img
+{
+	float: right;
+	height: 425px;
 }

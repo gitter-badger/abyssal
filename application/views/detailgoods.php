@@ -98,18 +98,18 @@ $(document).ready(
                         <li><h3>Rp. <?php echo $goods->price; ?></h3></li>
                         <li>
                         	<h3>LIKE</h3>
-                            <a class="share-btn like-btn" target="_blank" onclick="vote(<?php echo $id; ?>)">
+                            <a class="share-btn like-btn" target="_blank" onClick="vote(<?php echo $id; ?>)">
                               <span class="share-btn-action share-btn-plus">Vote Up</span>
                               <span class="share-btn-count"><?php echo $goods->vote; ?></span>
                             </a>
                         </li>
                         <li>
                         	<h3>SHARE</h3>
-                            <a class="share-btn" target="_blank" onclick="postToTweeter()">
+                            <a class="share-btn" target="_blank" onClick="postToTweeter()">
                               <span class="share-btn-action share-btn-tweet">Tweet</span>
                               <span class="share-btn-count"><?php echo $goods->tweeter; ?></span>
                             </a>
-                            <a class="share-btn" target="_blank" onclick="postToFacebook()">
+                            <a class="share-btn" target="_blank" onClick="postToFacebook()">
                               <span class="share-btn-action share-btn-like">Share</span>
                               <span class="share-btn-count"><?php echo $goods->facebook; ?></span>
                             </a>
@@ -118,10 +118,12 @@ $(document).ready(
                 </div>
 			<?php } ?>
             </div>
+            <div class="clear-fix"></div>
         </div>
     </div>
-    <hr class="sexy_line">
+   
     <footer class="footer-box footer-container">
+    	 <hr class="sexy_line">
     	<div class="footer-wrapper">
             <input type="text" class="footer-search" placeholder="Search...">
             <div class="footer-link-ext trans-all" id="link-ext">

@@ -17,7 +17,7 @@ $(document).ready(function() {
 <body>
 	<div class="wrapper">
     	<header>
-        	<a class="logo-img-container trans-all" href="home.php">
+        	<a class="logo-img-container trans-all" href="<?php echo base_url(); ?>home">
             	<img src="<?php echo base_url(); ?>/img/logo.png">
             </a>
             <nav class="nav-menu-container">

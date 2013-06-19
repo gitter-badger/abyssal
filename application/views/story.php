@@ -22,7 +22,7 @@ $(document).ready(function() {
 <body >
 	<div class="wrapper">
     	<header>
-        	<a class="logo-img-container trans-all" href="home.php">
+        	<a class="logo-img-container trans-all" href="<?php echo base_url(); ?>home">
             	<img src="img/logo.png">
             </a>
             <nav class="nav-menu-container">
@@ -38,21 +38,25 @@ $(document).ready(function() {
         </header>
         <hr class="sexy_line">
         <div id="main" class="content">
-             <div class="desc-container">
+             <div class="story-container">
 			 <?php foreach($data as $story) { ?>
-                <div class="title">
-                	<h2><?php echo $story->title; ?></h2>
+                <div class="side">
+                    <div class="title">
+                        <h2><?php echo $story->title; ?></h2>
+                    </div>
+                    <div id="desc-home" class="story">
+                        <?php echo $story->story; ?>
                 </div>
-                <div id="desc-home" class="story">
-                    <?php echo $story->story; ?>
                 </div>
+                <img class="story-img" src="<?php echo base_url(); ?>/img/robert-ettinger_carousel_half.jpg">
 				<?php } ?>
         	</div>
         </div>
-       
+       	<div class="clear-fix"></div>
     </div>
-    <hr class="sexy_line">
+    
     <footer class="footer-box footer-container">
+		<hr class="sexy_line">
     	<div class="footer-wrapper">
             <input type="text" class="footer-search" placeholder="Search...">
             <div class="footer-link-ext trans-all" id="link-ext">

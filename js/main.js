@@ -3,9 +3,9 @@ $(window).load(function() {
 	$(".splash1").css("display","none");
 	$(".splash2").css("display","none");
 	$(".splash3").css("display","none");
-	$(".splash1").fadeIn(2000);
-	$(".splash2").fadeIn(4000);
-	$(".splash3").fadeIn(5000);
+	$(".splash1").fadeIn(1000);
+	$(".splash2").fadeIn(2000);
+	$(".splash3").fadeIn(4000);
     $(".splash1").animate({opacity:'0'},4000);	
 	$(".splash2").animate({opacity:'0'},2000);	
 	$(".splash3").animate({opacity:'0',marginTop:'-150'},4000, function(){ 
@@ -33,7 +33,7 @@ function toggle()
 }
 function show()
 {
-	document.getElementById("collection").style.top = "-85%";	
+	document.getElementById("collection").style.top = "-70%";	
 	document.getElementById("collection").style.height = "80%";	
 	document.getElementById("collection-toggle").style.color = "#fff";	
 	document.getElementById("collection-toggle").style.textShadow = "-2px -2px 0 #777";
@@ -45,7 +45,7 @@ function show()
 
 function hide()
 {
-	document.getElementById("collection").style.top = "0%";	
+	document.getElementById("collection").style.top = "5%";	
 	document.getElementById("collection").style.height = "0%";	
 	document.getElementById("collection-toggle").style.color = "";	
 	document.getElementById("collection-toggle").style.textShadow = "";

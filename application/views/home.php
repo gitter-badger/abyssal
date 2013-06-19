@@ -7,6 +7,11 @@
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-latest.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-min 1.8.3.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-ui.min.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
 <script>
 $(document).ready(function() {
     $('.viewport').mouseenter(function(e) {
@@ -19,10 +24,10 @@ $(document).ready(function() {
 });
 </script>
 </head>
-<body >
+<body>
 	<div class="wrapper">
     	<header>
-        	<a class="logo-img-container trans-all" href="home.php">
+        	<a class="logo-img-container trans-all" href="<?php echo base_url(); ?>home">
             	<img src="img/logo.png">
             </a>
             <nav class="nav-menu-container">
@@ -79,22 +84,68 @@ $(document).ready(function() {
                                 <img class="trans-slow" src="img/wallet4.jpg">
                             </a>
                          </div>
-                    </li>                                        
+                    </li> 
+                    <li>
+                        <div class="viewport">
+                            <a href="#">
+                                <span>Test Title</span>
+                                <img class="trans-slow" src="img/wallet4.jpg">
+                            </a>
+                         </div>
+                    </li>
+                    <li>
+                        <div class="viewport">
+                            <a href="#">
+                                <span>Test Title</span>
+                                <img class="trans-slow" src="img/wallet4.jpg">
+                            </a>
+                         </div>
+                         <div class="clear-fix"></div>
+                    </li> 
+                    <li class="clear-fix"></li>                                      
                 </ul>
             </div>
             <div class="desc-container">
-        	<div class="title">
-            <h2>Abyssal Collection</h2>
-            </div>
-            <div id="desc-home" class="description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc. Nam eget metus magna, id tempor mauris. Pellentesque nec tellus eu nisi tempor feugiat. Cras ornare quam a urna bibendum vitae congue sapien dapibus. Integer lobortis bibendum erat eget suscipit. Nam et mauris et metus commodo suscipit a nec magna. Etiam at quam enim, eget euismod velit. Cras ut bibendum risus. Praesent libero diam, posuere et porttitor sit amet, condimentum ut sem.</p>
-            </div>
-        </div>
+                <!--<div class="title">
+                <h2>Abyssal Collection</h2>
+                </div>-->
+                <div id="desc-home" class="description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc. Nam eget metus magna, id tempor mauris. Pellentesque nec tellus eu nisi tempor feugiat. Cras ornare quam a urna bibendum vitae congue sapien dapibus. </p>
+                </div>
+        	</div>
+            <!--<section class="main">
+			
+				<ul class="ch-grid">
+					<li>
+						<div class="ch-item ch-img-1">
+							<div class="ch-info">
+								<a href="<?php echo base_url(); ?>goods"><h3>Pick the product</h3></a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item ch-img-2">
+							<div class="ch-info">
+								<h3>Seal the deal</h3>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item ch-img-3">
+							<div class="ch-info">
+								<h3>Pink Lightning</h3>
+								<p>by Charlie Wagers <a href="http://drbl.in/ekhp">View on Dribbble</a></p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+			</section>-->
         </div>
         
     </div>
-    <hr class="sexy_line">
     <footer class="footer-box footer-container">
+    	<hr class="sexy_line">
     	<div class="footer-wrapper">
             <input type="text" class="footer-search" placeholder="Search...">
             <div class="footer-link-ext trans-all" id="link-ext">
