@@ -7,9 +7,15 @@
 		
 		var $table = 'blog';
 		var $table2 = 'has_tag';
+		var $table3 = 'tag';
 		
 		function get_post(){
 			$query = $this->db->get($this->table);
+			return $query->result();
+		}
+		
+		function get_content($id){
+			$query = $this->db->get_where($this->table,array('id_blog'=>$id));
 			return $query->result();
 		}
 		
@@ -19,7 +25,12 @@
 		}
 		
 		function get_month(){
-			$query = $query = $this->db->query("SELECT DATE_FORMAT(date,'%M %Y') as date1 FROM ".$this->table);
+			$query =  $this->db->query("SELECT DATE_FORMAT(date,'%M %Y') as date1 FROM ".$this->table);
+			return $query->result();
+		}
+		
+		function get_content_by_date($time){
+			$query = $this->db->query("SELECT * FROM ".$this->table." WHERE (SELECT DATE_FORMAT( date, '%M %Y' ) AS date1) LIKE '".$time."'");
 			return $query->result();
 		}
 		
@@ -33,8 +44,19 @@
 			return $query->result();
 		}
 		
+		function get_alltag(){
+			$query = $this->db->get($this->table2);
+			return $query->result();
+		}
+		
 		function get_tag($id_blog){
 			$query = $this->db->get_where($this->table2,array('id_blog'=>$id_blog));
+			return $query->result();
+		}
+		
+		function get_tag_content($id_tag){
+			$query = $this->db->get_where($this->table3,array('id_tag'=>$id_tag));
+			return $query->result();
 		}
 		
 		function get_post_by_tag($tag){

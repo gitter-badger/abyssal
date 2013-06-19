@@ -52,11 +52,11 @@ $(document).ready(function() {
             </a>
             <nav class="nav-menu-container">
             	<ul class="nav">
-                	<li><a href="home.php">Home</a></li>
-                    <li><a href="story.php">Story</a></li>
-                    <li><a href="goods.php">Goods</a></li>
-                    <li><a href="journal.php">Journal</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                	<li><a href="<?php echo base_url(); ?>home">Home</a></li>
+                    <li><a href="<?php echo base_url(); ?>story">Story</a></li>
+                    <li><a href="<?php echo base_url(); ?>goods">Goods</a></li>
+                    <li><a href="<?php echo base_url(); ?>journal">Journal</a></li>
+                    <li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
                     <div class="effect"></div>
                 </ul>
             </nav>

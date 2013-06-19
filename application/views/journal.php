@@ -23,7 +23,7 @@ $(document).ready(function() {
 	<div class="wrapper">
     	<header>
         	<a class="logo-img-container trans-all" href="home.php">
-            	<img src="img/logo.png">
+            	<img src="<?php echo base_url(); ?>img/logo.png">
             </a>
             <nav class="nav-menu-container">
             	<ul class="nav">
@@ -47,7 +47,7 @@ $(document).ready(function() {
                     </h3>
                     <div class="author"><?php echo $blog->author; ?><span> - <?php echo $blog->date; ?></span></div>
                     <div class="desc"><?php echo $blog->content; ?></div>
-                    <a href="detailjournal/<?php echo $blog->id_blog; ?>" class="read-more">read more</a>
+                    <a href="<?php echo base_url(); ?>detailjournal/getcontent/<?php echo $blog->id_blog; ?>" class="read-more">read more</a>
                 </article>
 			<?php } ?>
             </div>
@@ -64,19 +64,16 @@ $(document).ready(function() {
                 	<h3>Archieves</h3>
                     <ul>
 					<?php foreach($data1 as $blog) { ?>
-                    	<li><a><?php echo $blog->date1; ?></a></li>
+                    	<li><a href='<?php echo base_url(); ?>journal/bydate/<?php echo $blog->date1; ?>'><?php echo $blog->date1; ?></a></li>
 					<?php } ?>
                     </ul>
                 </div>
                 <div class="tags-container">
                 	<h3>Tags</h3>
                     <ul>
-                    	<li><a>Leather</a></li>
-                        <li><a>Tips</a></li>
-                        <li><a>True Story</a></li>
-                        <li><a>Leather</a></li>
-                        <li><a>Indonesia</a></li>
-                        <li><a>Maintenance</a></li>
+					<?php foreach($data3 as $tags) { ?>
+                    	<li><a><?php echo $tags[0]->tag; ?></a></li>
+					<?php } ?>
                     </ul>
                 </div>
             </div>
@@ -92,8 +89,8 @@ $(document).ready(function() {
             <div class="footer-socmed">
                <div class="buttons">
                		<span>follow us : </span>
-                    <a class="twitter" href=""><img src="img/twitter.png" /></a>
-                    <a class="facebook" href=""><img src="img/facebook.png" /></a>
+                    <a class="twitter" href=""><img src="<?php echo base_url(); ?>img/twitter.png" /></a>
+                    <a class="facebook" href=""><img src="<?php echo base_url(); ?>img/facebook.png" /></a>
                 </div>
             </div>
         </div>
