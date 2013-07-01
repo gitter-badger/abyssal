@@ -18,7 +18,7 @@
 		
 		public function getcontent($id){
 			$content['data'] = $this->Journal_Model->get_content($id);
-			$this->load->view('detailjournal',
+			$this->load->view('detailjournal');
 		}
 	}
 ?>
