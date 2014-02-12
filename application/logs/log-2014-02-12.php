@@ -7538,3 +7538,902 @@ DEBUG - 2014-02-12 19:59:11 --> File loaded: application/views/home.php
 DEBUG - 2014-02-12 19:59:11 --> File loaded: application/views/footer.php
 DEBUG - 2014-02-12 19:59:11 --> Final output sent to browser
 DEBUG - 2014-02-12 19:59:11 --> Total execution time: 0.0380
+DEBUG - 2014-02-12 21:26:42 --> Config Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:26:42 --> URI Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Router Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Output Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Security Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Input Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:26:42 --> Language Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:26:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:26:42 --> Session Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:26:42 --> Session routines successfully run
+DEBUG - 2014-02-12 21:26:42 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:42 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:26:42 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:26:42 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:42 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:26:42 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:26:42 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:26:42 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:26:42 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:26:42 --> File loaded: application/views/home.php
+DEBUG - 2014-02-12 21:26:42 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:26:42 --> Final output sent to browser
+DEBUG - 2014-02-12 21:26:42 --> Total execution time: 0.1790
+DEBUG - 2014-02-12 21:26:53 --> Config Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:26:53 --> URI Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Router Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Output Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Security Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Input Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:26:53 --> Language Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:26:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:26:53 --> Session Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:26:53 --> Session routines successfully run
+DEBUG - 2014-02-12 21:26:53 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:53 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:26:53 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:26:53 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:53 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:26:53 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:26:53 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:53 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:26:53 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:26:53 --> File loaded: application/views/goods.php
+DEBUG - 2014-02-12 21:26:53 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:26:53 --> Final output sent to browser
+DEBUG - 2014-02-12 21:26:53 --> Total execution time: 0.2540
+DEBUG - 2014-02-12 21:26:55 --> Config Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:26:55 --> URI Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Router Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Output Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Security Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Input Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:26:55 --> Language Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:26:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:26:55 --> Session Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:26:55 --> Session routines successfully run
+DEBUG - 2014-02-12 21:26:55 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:55 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:26:55 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:26:55 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:55 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:26:55 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:26:55 --> Model Class Initialized
+DEBUG - 2014-02-12 21:26:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:26:55 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:26:55 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:26:55 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:26:55 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:26:55 --> Final output sent to browser
+DEBUG - 2014-02-12 21:26:55 --> Total execution time: 0.1630
+DEBUG - 2014-02-12 21:28:28 --> Config Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:28:28 --> URI Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Router Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Output Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Security Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Input Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:28:28 --> Language Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:28:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:28:28 --> Session Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:28:28 --> Session routines successfully run
+DEBUG - 2014-02-12 21:28:28 --> Model Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Model Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:28:28 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:28:28 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:28:28 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:28:28 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:28:28 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:28:28 --> Model Class Initialized
+DEBUG - 2014-02-12 21:28:28 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:28:28 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:28:28 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:28:28 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:28:28 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:28:28 --> Final output sent to browser
+DEBUG - 2014-02-12 21:28:28 --> Total execution time: 0.0960
+DEBUG - 2014-02-12 21:28:43 --> Config Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:28:43 --> URI Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Router Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Output Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Security Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Input Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:28:43 --> Language Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:28:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:28:43 --> Session Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:28:43 --> Session routines successfully run
+DEBUG - 2014-02-12 21:28:43 --> Model Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Model Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:28:43 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:28:43 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:28:43 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:28:43 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:28:43 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:28:43 --> Model Class Initialized
+DEBUG - 2014-02-12 21:28:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:28:43 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:28:43 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:28:43 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:28:43 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:28:43 --> Final output sent to browser
+DEBUG - 2014-02-12 21:28:43 --> Total execution time: 0.0940
+DEBUG - 2014-02-12 21:30:00 --> Config Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:30:00 --> URI Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Router Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Output Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Security Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Input Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:30:00 --> Language Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:30:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:30:00 --> Session Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:30:00 --> Session routines successfully run
+DEBUG - 2014-02-12 21:30:00 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:00 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:30:00 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:30:00 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:00 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:30:00 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:30:00 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:00 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:30:00 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:30:00 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:30:00 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:30:00 --> Final output sent to browser
+DEBUG - 2014-02-12 21:30:00 --> Total execution time: 0.1610
+DEBUG - 2014-02-12 21:30:34 --> Config Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:30:34 --> URI Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Router Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Output Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Security Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Input Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:30:34 --> Language Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:30:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:30:34 --> Session Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:30:34 --> Session routines successfully run
+DEBUG - 2014-02-12 21:30:34 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:34 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:30:34 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:30:34 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:34 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:30:34 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:30:34 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:34 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:34 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:30:34 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:30:34 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:30:35 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:30:35 --> Final output sent to browser
+DEBUG - 2014-02-12 21:30:35 --> Total execution time: 0.0910
+DEBUG - 2014-02-12 21:30:58 --> Config Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:30:58 --> URI Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Router Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Output Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Security Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Input Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:30:58 --> Language Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:30:58 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:30:58 --> Session Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:30:58 --> Session routines successfully run
+DEBUG - 2014-02-12 21:30:58 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:58 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:30:58 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:30:58 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:58 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:30:58 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:30:58 --> Model Class Initialized
+DEBUG - 2014-02-12 21:30:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:30:58 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:30:58 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:30:58 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:30:58 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:30:58 --> Final output sent to browser
+DEBUG - 2014-02-12 21:30:58 --> Total execution time: 0.0990
+DEBUG - 2014-02-12 21:31:15 --> Config Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:31:15 --> URI Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Router Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Output Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Security Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Input Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:31:15 --> Language Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:31:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:31:15 --> Session Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:31:15 --> Session routines successfully run
+DEBUG - 2014-02-12 21:31:15 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:15 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:31:15 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:31:15 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:15 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:31:15 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:31:15 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:15 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:15 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:31:15 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:31:15 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:31:15 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:31:15 --> Final output sent to browser
+DEBUG - 2014-02-12 21:31:15 --> Total execution time: 0.0940
+DEBUG - 2014-02-12 21:31:31 --> Config Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:31:31 --> URI Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Router Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Output Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Security Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Input Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:31:31 --> Language Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:31:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:31:31 --> Session Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:31:31 --> Session routines successfully run
+DEBUG - 2014-02-12 21:31:31 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:31 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:31:31 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:31:31 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:31 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:31:31 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:31:31 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:31 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:31:31 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:31:31 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:31:31 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:31:31 --> Final output sent to browser
+DEBUG - 2014-02-12 21:31:31 --> Total execution time: 0.1090
+DEBUG - 2014-02-12 21:31:49 --> Config Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:31:49 --> URI Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Router Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Output Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Security Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Input Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:31:49 --> Language Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:31:49 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:31:49 --> Session Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:31:49 --> Session routines successfully run
+DEBUG - 2014-02-12 21:31:49 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:49 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:31:49 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:31:49 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:49 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:31:49 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:31:49 --> Model Class Initialized
+DEBUG - 2014-02-12 21:31:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:31:49 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:31:49 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:31:49 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:31:49 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:31:49 --> Final output sent to browser
+DEBUG - 2014-02-12 21:31:49 --> Total execution time: 0.0940
+DEBUG - 2014-02-12 21:32:06 --> Config Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:32:06 --> URI Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Router Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Output Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Security Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Input Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:32:06 --> Language Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:32:06 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:32:06 --> Session Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:32:06 --> Session routines successfully run
+DEBUG - 2014-02-12 21:32:06 --> Model Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Model Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:32:06 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:32:06 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:32:06 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:32:06 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:32:06 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:32:06 --> Model Class Initialized
+DEBUG - 2014-02-12 21:32:06 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:32:06 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:32:06 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:32:06 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:32:06 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:32:06 --> Final output sent to browser
+DEBUG - 2014-02-12 21:32:06 --> Total execution time: 0.0960
+DEBUG - 2014-02-12 21:32:24 --> Config Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:32:24 --> URI Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Router Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Output Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Security Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Input Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:32:24 --> Language Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:32:24 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:32:24 --> Session Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:32:24 --> Session routines successfully run
+DEBUG - 2014-02-12 21:32:24 --> Model Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Model Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:32:24 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:32:24 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:32:24 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:32:24 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:32:24 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:32:24 --> Model Class Initialized
+DEBUG - 2014-02-12 21:32:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:32:24 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:32:24 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:32:24 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:32:24 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:32:24 --> Final output sent to browser
+DEBUG - 2014-02-12 21:32:24 --> Total execution time: 0.0940
+DEBUG - 2014-02-12 21:34:31 --> Config Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:34:31 --> URI Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Router Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Output Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Security Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Input Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:34:31 --> Language Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:34:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:34:31 --> Session Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:34:31 --> Session routines successfully run
+DEBUG - 2014-02-12 21:34:31 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:31 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:34:31 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:34:31 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:31 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:34:31 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:34:31 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:31 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:34:31 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:34:31 --> File loaded: application/views/goods.php
+DEBUG - 2014-02-12 21:34:31 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:34:31 --> Final output sent to browser
+DEBUG - 2014-02-12 21:34:31 --> Total execution time: 0.1360
+DEBUG - 2014-02-12 21:34:45 --> Config Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:34:45 --> URI Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Router Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Output Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Security Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Input Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:34:45 --> Language Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:34:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:34:45 --> Session Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:34:45 --> Session routines successfully run
+DEBUG - 2014-02-12 21:34:45 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:45 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:34:45 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:34:45 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:45 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:34:45 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:34:45 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:45 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:34:45 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:34:45 --> File loaded: application/views/goods.php
+DEBUG - 2014-02-12 21:34:45 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:34:45 --> Final output sent to browser
+DEBUG - 2014-02-12 21:34:45 --> Total execution time: 0.1500
+DEBUG - 2014-02-12 21:34:50 --> Config Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:34:50 --> URI Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Router Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Output Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Security Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Input Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:34:50 --> Language Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:34:50 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:34:50 --> Session Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:34:50 --> Session routines successfully run
+DEBUG - 2014-02-12 21:34:50 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:50 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:34:50 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:34:50 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:34:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:51 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:34:51 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:34:51 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:34:51 --> Model Class Initialized
+DEBUG - 2014-02-12 21:34:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:34:51 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:34:51 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:34:51 --> File loaded: application/views/goods.php
+DEBUG - 2014-02-12 21:34:51 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:34:51 --> Final output sent to browser
+DEBUG - 2014-02-12 21:34:51 --> Total execution time: 0.0930
+DEBUG - 2014-02-12 21:35:57 --> Config Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:35:57 --> URI Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Router Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Output Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Security Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Input Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:35:57 --> Language Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:35:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:35:57 --> Session Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:35:57 --> Session routines successfully run
+DEBUG - 2014-02-12 21:35:57 --> Model Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Model Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:35:57 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:35:57 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:35:57 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:35:57 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:35:57 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:35:57 --> Model Class Initialized
+DEBUG - 2014-02-12 21:35:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:35:57 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:35:57 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:35:57 --> File loaded: application/views/story.php
+DEBUG - 2014-02-12 21:35:57 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:35:57 --> Final output sent to browser
+DEBUG - 2014-02-12 21:35:57 --> Total execution time: 0.1510
+DEBUG - 2014-02-12 21:36:29 --> Config Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:36:29 --> URI Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Router Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Output Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Security Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Input Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:36:29 --> Language Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:36:29 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:36:29 --> Session Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:36:29 --> Session routines successfully run
+DEBUG - 2014-02-12 21:36:29 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:29 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:36:29 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:36:29 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:29 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:36:29 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:36:29 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:29 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:36:29 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:36:29 --> File loaded: application/views/story.php
+DEBUG - 2014-02-12 21:36:29 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:36:29 --> Final output sent to browser
+DEBUG - 2014-02-12 21:36:29 --> Total execution time: 0.1010
+DEBUG - 2014-02-12 21:36:44 --> Config Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:36:44 --> URI Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Router Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Output Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Security Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Input Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:36:44 --> Language Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:36:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:36:44 --> Session Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:36:44 --> Session routines successfully run
+DEBUG - 2014-02-12 21:36:44 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:44 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:36:44 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:36:44 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:44 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:36:44 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:36:44 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:44 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:44 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:36:44 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:36:44 --> File loaded: application/views/goods.php
+DEBUG - 2014-02-12 21:36:44 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:36:44 --> Final output sent to browser
+DEBUG - 2014-02-12 21:36:44 --> Total execution time: 0.1300
+DEBUG - 2014-02-12 21:36:46 --> Config Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:36:46 --> URI Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Router Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Output Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Security Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Input Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:36:46 --> Language Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:36:46 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:36:46 --> Session Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:36:46 --> Session routines successfully run
+DEBUG - 2014-02-12 21:36:46 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:46 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:36:46 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:36:46 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:46 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:36:46 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:36:46 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:46 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:36:46 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:36:46 --> File loaded: application/views/story.php
+DEBUG - 2014-02-12 21:36:46 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:36:46 --> Final output sent to browser
+DEBUG - 2014-02-12 21:36:46 --> Total execution time: 0.1540
+DEBUG - 2014-02-12 21:36:47 --> Config Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:36:47 --> URI Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Router Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Output Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Security Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Input Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:36:47 --> Language Class Initialized
+DEBUG - 2014-02-12 21:36:47 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:36:48 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:36:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:36:48 --> Session Class Initialized
+DEBUG - 2014-02-12 21:36:48 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:36:48 --> Session routines successfully run
+DEBUG - 2014-02-12 21:36:48 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:48 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:48 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:36:48 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:36:48 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:36:48 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:36:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:48 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:36:48 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:36:48 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:36:48 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:36:48 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:36:48 --> File loaded: application/views/home.php
+DEBUG - 2014-02-12 21:36:48 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:36:48 --> Final output sent to browser
+DEBUG - 2014-02-12 21:36:48 --> Total execution time: 0.1030
+DEBUG - 2014-02-12 21:36:55 --> Config Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:36:55 --> URI Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Router Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Output Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Security Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Input Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:36:55 --> Language Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:36:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:36:55 --> Session Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:36:55 --> Session routines successfully run
+DEBUG - 2014-02-12 21:36:55 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:55 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:36:55 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:36:55 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:55 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:36:55 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:36:55 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:55 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:36:55 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:36:55 --> File loaded: application/views/detailgoods.php
+DEBUG - 2014-02-12 21:36:55 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:36:55 --> Final output sent to browser
+DEBUG - 2014-02-12 21:36:55 --> Total execution time: 0.1870
+DEBUG - 2014-02-12 21:36:56 --> Config Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:36:56 --> URI Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Router Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Output Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Security Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Input Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:36:56 --> Language Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:36:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:36:56 --> Session Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:36:56 --> Session routines successfully run
+DEBUG - 2014-02-12 21:36:56 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:56 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:36:56 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:36:56 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:36:56 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:36:56 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:36:56 --> Model Class Initialized
+DEBUG - 2014-02-12 21:36:56 --> Session class already loaded. Second attempt ignored.
+ERROR - 2014-02-12 21:36:56 --> Severity: Warning  --> Missing argument 1 for Goods::detail() C:\xampp\htdocs\Github\abyssal\application\controllers\goods.php 34
+ERROR - 2014-02-12 21:36:56 --> Severity: Notice  --> Undefined variable: id C:\xampp\htdocs\Github\abyssal\application\controllers\goods.php 35
+ERROR - 2014-02-12 21:36:56 --> Severity: Notice  --> Undefined variable: id C:\xampp\htdocs\Github\abyssal\application\controllers\goods.php 36
+DEBUG - 2014-02-12 21:36:56 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:36:56 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:36:56 --> File loaded: application/views/detailgoods.php
+DEBUG - 2014-02-12 21:36:56 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:36:56 --> Final output sent to browser
+DEBUG - 2014-02-12 21:36:56 --> Total execution time: 0.1240
+DEBUG - 2014-02-12 21:37:04 --> Config Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:37:04 --> URI Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Router Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Output Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Security Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Input Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:37:04 --> Language Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:37:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:37:04 --> Session Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:37:04 --> Session routines successfully run
+DEBUG - 2014-02-12 21:37:04 --> Model Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Model Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:37:04 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:37:04 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:37:04 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:37:04 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:37:04 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:37:04 --> Model Class Initialized
+DEBUG - 2014-02-12 21:37:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:37:04 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:37:04 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:37:04 --> File loaded: application/views/goods.php
+DEBUG - 2014-02-12 21:37:04 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:37:04 --> Final output sent to browser
+DEBUG - 2014-02-12 21:37:04 --> Total execution time: 0.0960
+DEBUG - 2014-02-12 21:37:09 --> Config Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Hooks Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Utf8 Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> UTF-8 Support Enabled
+DEBUG - 2014-02-12 21:37:09 --> URI Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Router Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Output Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Security Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Input Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-02-12 21:37:09 --> Language Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Loader Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Database Driver Class Initialized
+ERROR - 2014-02-12 21:37:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\Github\abyssal\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2014-02-12 21:37:09 --> Session Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Helper loaded: string_helper
+DEBUG - 2014-02-12 21:37:09 --> Session routines successfully run
+DEBUG - 2014-02-12 21:37:09 --> Model Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Model Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:37:09 --> Controller Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Helper loaded: url_helper
+DEBUG - 2014-02-12 21:37:09 --> Helper loaded: form_helper
+DEBUG - 2014-02-12 21:37:09 --> Form Validation Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:37:09 --> Helper loaded: date_helper
+DEBUG - 2014-02-12 21:37:09 --> Pagination Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Helper loaded: security_helper
+DEBUG - 2014-02-12 21:37:09 --> Model Class Initialized
+DEBUG - 2014-02-12 21:37:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2014-02-12 21:37:09 --> File loaded: application/views/header.php
+DEBUG - 2014-02-12 21:37:09 --> File loaded: application/views/navigation.php
+DEBUG - 2014-02-12 21:37:09 --> File loaded: application/views/contact.php
+DEBUG - 2014-02-12 21:37:09 --> File loaded: application/views/footer.php
+DEBUG - 2014-02-12 21:37:09 --> Final output sent to browser
+DEBUG - 2014-02-12 21:37:09 --> Total execution time: 0.1730
