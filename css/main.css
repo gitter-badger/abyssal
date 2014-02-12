@@ -767,6 +767,15 @@ p
 		padding: 20px 0;
 		margin: 0 auto;	
 	}
+	.contact-info-wrap{
+		padding: 20px 0 10px 40px;
+	
+}
+	.contact-info {
+		display: block;
+		margin: 0 20px 10px;
+		font-size: 25px;
+}
 	
 	input[type="text"]
 	{

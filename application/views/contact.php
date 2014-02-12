@@ -2,8 +2,16 @@
         <div id="main" class="content">
             <div class="contact-container">
 	            <h3>Get in Touch</h3>
-				<h4>Abyssal 1 : 0853 1060 2422</h4>
-                <h4>Abyssal 2 : 0878 7878 1001</h4>
+                <div class="contact-info-wrap">
+				<div class="contact-info"><span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                </span> Abyssal 1 : 0853 1060 2422</div>
+                <div class="contact-info"><span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                </span> Abyssal 2 : 0878 7878 1001</div>
+                </div>
 
                 <p>If you have something in mind about us or our product, feel free to drop me a mail or directly message us. Happily if you are just passing by and simply want to say hello, then you are more than welcome.  </p>
 				<h5>Thanks for your visit!!</h5>

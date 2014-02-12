@@ -6,6 +6,7 @@
 <meta name="author" content="Abdurrahman">
 <meta charset="UTF-8">
 <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>css/main.css" >
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-latest.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-min 1.8.3.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-ui.min.js"></script>
