@@ -1,155 +1,41 @@
-<!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Abyssal & Pelagic</title>
-<!--<link href="style/style.css" rel="stylesheet" type="text/css">-->
-<!--<link media="screen and (max-width: 800px)" href="style/small.css" rel="stylesheet" type="text/css">-->
-<script type="text/javascript" src="js/jquery-min 1.8.3.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<link rel="icon" href="img/icon.png" sizes="32x32">
-<script type="text/javascript" charset="utf-8">
-$(function() {
-    adjustStyle($(this).width());
-    $(window).resize(function() {
-        adjustStyle($(this).width());
-    });
+<link type="text/css" rel="stylesheet" href="css/main.css" >
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/main.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-latest.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-min 1.8.3.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/common.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="<?php echo base_url(); ?>js/modernizr.custom.79639.js"></script> 
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/prefixfree.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.viewport').hover(function() { $(this).children('a').children('img').animate({ height: '363', left: '0', top: '0', width: '242' }, 100);
+        $(this).children('a').children('span').fadeIn(300); }, function() {        $(this).children('a').children('img').animate({ height: '396', left: '-20', top: '-20', width: '264'}, 100);
+        $(this).children('a').children('span').fadeOut(300);});
 });
-
 </script>
-<style>
-<style>
-.login_box
-{
-	box-shadow: 0 0 17px #744150;
-	border-radius: 20px;
-	top: 40%;
-	color: #744150;
-	height: 30%;	
-	background: #744150;
-	padding:50px;
-	margin:0 auto;
-}
-.login_username
-{
-	width:50%;
-	position:absolute;
-	left:50%;
-	margin-left:-25%;
-	top:15%;
-	height:15%;
-}
-.login_username input,.login_password input
-{
-	width:100%;
-	height:100%;
-	border:none;
-	box-shadow:0 0 10px inset;
-	border-radius:10px;
-	padding:3%;
-	font-family:"Trebuchet MS";
-	font-size:18px;
-	font-weight:bolder;
-}
-.login_username input:hover,.login_password input:hover
-{	
-	box-shadow:0 0 10px inset;
-	color:#061a35;
-}
-::-webkit-input-placeholder {
-	color:#159;	
-   	text-align:center;
-	opacity:0.4;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color:#159;	
-
-   	text-align:center;
-	opacity:0.4;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color:#159;	
-   	text-align:center;
-	opacity:0.4;
-}
-
-:-ms-input-placeholder {  
-   color:#159;	
-   	text-align:center;
-	opacity:0.4;
-}
-.login_password
-{
-	width:50%;
-	position:absolute;
-	left:50%;
-	margin-left:-25%;
-	top:40%;
-	height:15%;
-}
-.login_button
-{
-	width:30%;
-	position:absolute;
-	left:50%;
-	margin-left:-15%;
-	top:75%;
-	height:15%;
-}
-.login_button input
-{
-	border:none;
-	width:100%;
-	height:100%;
-	background:#91ACC0;
-	color:white;
-	text-align:center;	
-	border-radius:10px;
-	cursor:pointer;
-	font-family:"Trebuchet MS";
-	font-size:16px;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
-.login_button input:hover
-{
-	opacity:0.8;
-}
-.logo-img-container
-{
-	margin: 0 auto 0 auto;
-display: block;
-width: 50%;	
-}
-.logo-img-container img
-{
-	margin: 0 auto;
-width: 100%;
-height: 100%;	
-}
-</style>
 </head>
 <body>
-<div class="main">
-    <a class="logo-img-container trans-all" href="home.php">
-            	<img src="img/logo.png">
-    </a>
-    <div class="login_box">
-    	<form id="login_form" method="post" action="login-exec.php">
-            <div class="login_username"><input type="text" placeholder="username" name="username" id="username"></div>
-            <div class="login_password"><input type="password" placeholder="password" name="password" id="password" ></div>
-            <div class="login_button trans_all"><input type="submit" value="Login" id="sign_in_button"></div>
-        </form>
+	<div class="wrapper">
+    	<header>
+        	<a class="logo-img-container trans-all" href="<?php echo base_url(); ?>home">
+            	<img src="<?php echo base_url(); ?>img/logo.png">
+            </a>
+        </header>
+        <hr class="sexy_line">
+        <div id="main" class="content">
+        	<form class="form-2">
+                <input type="text" placeholder="username" name='name' class="input-blck">
+                <input type="text" placeholder="password" name='email' class="input-blck">
+                <input type="submit" value="send" class="button button-mid button-red">
+            </form>
+        </div>
     </div>
-</div>
-<footer>
-	<div class="footer">© 2013 Agraprana Design and Built,Indonesia</div>
-</footer>
+    <footer class="footer-box footer-container">
+	</footer>
 </body>
 </html>

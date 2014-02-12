@@ -1,72 +1,105 @@
-<html xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:fb="https://www.facebook.com/2008/fbml">
-<head>
-<title>Abyssal</title>
-<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>css/main.css" >
-<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-latest.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-min 1.8.3.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-ui.min.js"></script>
-<link type="text/css" href="<?php echo base_url(); ?>css/bottom.css" rel="stylesheet" />
-<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.pikachoose.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>js/main.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>js/functional_script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style2.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/cloud-zoom.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.fancybox-1.3.4.css" />
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/cloud-zoom.1.0.2.js"></script>
 <script>
-$(document).ready(
-	function (){
-	$("#pikame").PikaChoose();
-	magnifye();
-});
+$(function() {
+				/*
+				fancybox init on each cloud-zoom element
+				 */
+				$("#contenta .cloud-zoom").fancybox({
+					'transitionIn'	:	'elastic',
+					'transitionOut'	:	'none',
+					'speedIn'		:	600,
+					'speedOut'		:	200,
+					'overlayShow'	:	true,
+					'overlayColor'	:	'#000',
+					'cyclic'		:	true,
+					'easingIn'		:	'easeInOutExpo'
+				});
+
+				/*
+				because the cloud zoom plugin draws a mousetrap
+				div on top of the image, the fancybox click needs
+				to be changed. What we do here is to trigger the click
+				the fancybox expects, when we click the mousetrap div.
+				We know the mousetrap div is inserted after
+				the <a> we want to click:
+				 */
+				$("#contenta .mousetrap").live('click',function(){
+					$(this).prev().trigger('click');
+				});
+
+				/*
+				the content element;
+				each list item / group with several images
+				 */
+				var $content	= $('#contenta'),
+				$thumb_list = $content.find('.thumb > ul');
+				/*
+				we need to set the width of each ul (sum of the children width);
+				we are also defining the click events on the right and left arrows
+				of each item.
+				 */
+				$thumb_list.each(function(){
+					var $this_list	= $(this),
+					total_w		= 0,
+					loaded		= 0,
+					//preload all the images first
+					$images		= $this_list.find('img'),
+					total_images= $images.length;
+					$images.each(function(){
+						var $img	= $(this);
+						$('<img/>').load(function(){
+							++loaded;
+							if (loaded == total_images){
+								$this_list.data('current',0).children().each(function(){
+									total_w	+= $(this).width();
+								});
+								$this_list.css('width', total_w + 'px');
+
+								//next / prev events
+
+								$this_list.parent()
+								.siblings('.next')
+								.bind('click',function(e){
+									var current = $this_list.data('current');
+									if(current == $this_list.children().length -1) return false;
+									var	next	= ++current,
+									ml		= -next * $this_list.children(':first').width();
+
+									$this_list.data('current',next)
+									.stop()
+									.animate({
+										'marginLeft'	: ml + 'px'
+									},400);
+									e.preventDefault();
+								})
+								.end()
+								.siblings('.prev')
+								.bind('click',function(e){
+									var current = $this_list.data('current');
+									if(current == 0) return false;
+									var	prev	= --current,
+									ml		= -prev * $this_list.children(':first').width();
+
+									$this_list.data('current',prev)
+									.stop()
+									.animate({
+										'marginLeft'	: ml + 'px'
+									},400);
+									e.preventDefault();
+								});
+							}
+						}).attr('src',$img.attr('src'));
+					});
+				});
+			});
 </script>
-</head>
-<body >
-	<div id='fb-root'></div>
-	<script src='http://connect.facebook.net/en_US/all.js'></script>
-	<script> 
-      FB.init({appId: "YOUR_APP_ID", status: true, cookie: true});
 
-      function postToFacebook() {
-
-        // calling the API ...
-        var obj = {
-          method: 'feed',
-          redirect_uri: base_url+"goods/detail/"+<?php echo $id; ?>,
-          link: 'https://developers.facebook.com/docs/reference/dialogs/',
-          picture: 'http://fbrell.com/f8.jpg',
-          name: 'Facebook Dialogs',
-          caption: 'Reference Documentation',
-          description: 'Using Dialogs to interact with people.'
-        };
-
-        function callback(response) {
-			facebook(<?php echo $id; ?>);
-        }
-        FB.ui(obj, callback);
-      }
-	  
-	function postToTweeter() {
-		tweeter(<?php echo $id; ?>);
-	}
-	
-    </script>
-
-	<div class="wrapper">
-    	<header>
-        	<a class="logo-img-container trans-all" href="home.php">
-            	<img src="<?php echo base_url(); ?>img/logo.png">
-            </a>
-            <nav class="nav-menu-container">
-            	<ul class="nav">
-                	<li><a href="<?php echo base_url(); ?>home">Home</a></li>
-                    <li><a href="<?php echo base_url(); ?>story">Story</a></li>
-                    <li><a href="<?php echo base_url(); ?>goods">Goods</a></li>
-                    <li><a href="<?php echo base_url(); ?>journal">Journal</a></li>
-                    <li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
-                    <div class="effect"></div>
-                </ul>
-            </nav>
-        </header>
-       
-        <hr class="sexy_line">
         <div id="main" class="content">
             <div class="left-side">
             	<nav class="panel">
@@ -84,34 +117,43 @@ $(document).ready(
             <div class="right-side" id="content">
 			<?php foreach($data as $goods) { ?>
             	<div class="foto-container">
-                	<ul id="pikame">
-	                	<li><img src="<?php echo base_url(); ?>img/<?php echo $goods->image1; ?>"><span>tampak depan</span></li>
-                        <li><img  src="<?php echo base_url(); ?>img/<?php echo $goods->image2; ?>"><span>tampak samping</span></li>
-                        <li><img  src="<?php echo base_url(); ?>img/<?php echo $goods->image3; ?>"><span>tampak dalam</span></li>
-                    </ul>
+                	<div id="contenta" class="content">
+                        <div class="item">
+                            <div class="thumb_wrapper">
+                                <div class="thumb">
+                                    <ul>
+                                        <li><a rev="group1" rel="zoomHeight:300, zoomWidth:300, adjustX: 10, adjustY:-4, position:'body'" class='cloud-zoom' href="<?php echo base_url(); ?>img/<?php echo $goods->image1;?>"><img src="<?php echo base_url(); ?>img/thumbs/<?php echo $goods->image1;?>" alt="Formstack 1"/></a></li>
+                                        <li><a rev="group1" rel="zoomHeight:300, zoomWidth:300, adjustX: 10, adjustY:-4, position:'body'" class='cloud-zoom' href="<?php echo base_url(); ?>img/<?php echo $goods->image2;?>"><img src="<?php echo base_url(); ?>img/thumbs/<?php echo $goods->image2;?>" alt="Formstack 2"/></a></li>
+                                        <li><a rev="group1" rel="zoomHeight:300, zoomWidth:300, adjustX: 10, adjustY:-4, position:'body'" class='cloud-zoom' href="<?php echo base_url(); ?>img/<?php echo $goods->image3;?>"><img src="<?php echo base_url(); ?>img/thumbs/<?php echo $goods->image3;?>" alt="Formstack 3"/></a></li>
+                                    </ul>
+                                </div>
+                                <a class="prev" href="#"></a>
+                                <a class="next" href="#"></a>
+                                <span>Hover to zoom, click to view</span>
+                            </div>
+                        </div>        
+                        <div class="clear"></div>
+                    </div>
                 </div>
                 <div class="detail-container">
                 	<ul class="detail-box detail">
 	                    <li><a><span class="title-desc"><?php echo $goods->title; ?></span></a></li>
                         <li><h3>Description :</h3></li>
                         <li><p><?php echo $goods->description; ?></p></li>
-                        <li><h3>Rp. <?php echo $goods->price; ?></h3></li>
+                        <li><h3>IDR <?php echo $goods->price; ?></h3></li>
                         <li>
                         	<h3>LIKE</h3>
-                            <a class="share-btn like-btn" target="_blank" onClick="vote(<?php echo $id; ?>)">
-                              <span class="share-btn-action share-btn-plus">Vote Up</span>
-                              <span class="share-btn-count"><?php echo $goods->vote; ?></span>
+                            <a class="button button-mid button-red" target="_blank" onClick="vote(<?php echo $id; ?>)">
+                            Vote!
                             </a>
                         </li>
                         <li>
                         	<h3>SHARE</h3>
-                            <a class="share-btn" target="_blank" onClick="postToTweeter()">
-                              <span class="share-btn-action share-btn-tweet">Tweet</span>
-                              <span class="share-btn-count"><?php echo $goods->tweeter; ?></span>
+                            <a class="button button-mid button-tw" target="_blank" onClick="postToTweeter()">
+                              Tweets!
                             </a>
-                            <a class="share-btn" target="_blank" onClick="postToFacebook()">
-                              <span class="share-btn-action share-btn-like">Share</span>
-                              <span class="share-btn-count"><?php echo $goods->facebook; ?></span>
+                            <a class="button button-mid button-fb" target="_blank" onClick="postToFacebook()">
+                              Shared!
                             </a>
                         </li>
                     </ul>
@@ -121,36 +163,3 @@ $(document).ready(
             <div class="clear-fix"></div>
         </div>
     </div>
-   
-    <footer class="footer-box footer-container">
-    	 <hr class="sexy_line">
-    	<div class="footer-wrapper">
-            <input type="text" class="footer-search" placeholder="Search...">
-            <div class="footer-link-ext trans-all" id="link-ext">
-                <span class="icon-collection"></span><a onClick="toggle();" id="collection-toggle">Gallery Collection</a>
-            </div>
-            <div class="footer-socmed">
-                <div class="buttons">
-                	<span>follow us : </span>
-                    <a class="twitter" href=""><img src="<?php echo base_url(); ?>img/twitter.png" /></a>
-                    <a class="facebook" href=""><img src="<?php echo base_url(); ?>img/facebook.png" /></a>
-                </div>
-            </div>
-        </div>
-	</footer>
-    <div id="collection" class="hidden trans-slow">
-    	<nav id="inner-panel">
-        	<h3>Categories :</h3>
-            <ul>
-                <li class="trans-all"><a>wallet</a></li>
-                <li class="trans-all"><a>bag</a></li>
-                <li class="trans-all"><a>belt</a></li>
-                <li class="trans-all"><a>camera strap</a></li>
-                <li class="trans-all"><a>bracelet</a></li>
-                <li class="trans-all"><a>shoes</a></li>
-                <li class="trans-all"><a>others</a></li>
-            </ul>
-        </nav>
-    </div>
-</body>
-</html>

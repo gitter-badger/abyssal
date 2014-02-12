@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 28, 2013 at 02:22 
+-- Generation Time: Aug 16, 2013 at 10:17 PM
 -- Server version: 5.1.41
 -- PHP Version: 5.3.1
 
@@ -62,14 +62,23 @@ CREATE TABLE IF NOT EXISTS `goods` (
   `tweeter` int(11) NOT NULL,
   `facebook` int(11) NOT NULL,
   PRIMARY KEY (`id_goods`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
 --
 -- Dumping data for table `goods`
 --
 
 INSERT INTO `goods` (`id_goods`, `category`, `title`, `description`, `price`, `image1`, `image2`, `image3`, `vote`, `tweeter`, `facebook`) VALUES
-(1, 'Wallet', 'Wallet 1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'full-wallet2.jpg', 'full-wallet3.jpg', 'full-wallet4.jpg', 8, 0, 0);
+(1, 'Wallet', 'Green Mozs', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'formstack1.JPG', 'formstack2.JPG', 'formstack3.JPG', 9, 0, 0),
+(2, 'Wallet', 'Black Mamba', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'blackmamba1.JPG', 'blackmamba2.JPG', 'blackmamba4.JPG', 13, 0, 0),
+(3, 'Belt', 'Belt 1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'belt1.JPG', '', '', 0, 0, 0),
+(4, 'Wallet', 'Brown Reddish', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'brownreddish1.jpg', 'brownreddish2.jpg', 'brownreddish2.jpg', 0, 0, 0),
+(5, 'Wallet', 'Canvast', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'canvast1.jpg', 'canvast2.jpg', 'canvast3.jpg', 0, 0, 0),
+(6, 'Wallet', 'Cloud', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 10000, 'cloud2.jpg', 'cloud1.jpg', 'cloud1.jpg', 0, 0, 0),
+(7, 'Wallet', 'Greenedile', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'greenedile1.jpg', 'greenedile2.jpg', 'greenedile3.jpg', 0, 0, 0),
+(8, 'Wallet', 'Greenezation', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'greenezation1.jpg', 'greenezation2.jpg', 'greenezation3.jpg', 0, 0, 0),
+(9, 'Wallet', 'The Man 2.0', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'theman1.jpg', 'theman2.jpg', 'theman3.jpg', 0, 0, 0),
+(10, 'Wallet', 'Ultramarine', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio', 100000, 'ultramarine1.jpg', 'ultramarine2.jpg', 'ultramarine3.jpg', 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -128,7 +137,7 @@ CREATE TABLE IF NOT EXISTS `story` (
 --
 
 INSERT INTO `story` (`id_story`, `date_modified`, `title`, `story`) VALUES
-(1, '2013-04-01', 'Abyssal & Pellagic', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc. Nam eget metus magna, id tempor mauris. Pellentesque nec tellus eu nisi tempor feugiat. Cras ornare quam a urna bibendum vitae congue sapien dapibus. Integer lobortis bibendum erat eget suscipit. Nam et mauris et metus commodo suscipit a nec magna. Etiam at quam enim, eget euismod velit. Cras ut bibendum risus. Praesent libero diam, posuere et porttitor sit amet, condimentum ut sem.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc. Nam eget metus magna, id tempor mauris. Pellentesque nec tellus eu nisi tempor feugiat. Cras ornare quam a urna bibendum vitae congue sapien dapibus. Integer lobortis bibendum erat eget suscipit. Nam et mauris et metus commodo suscipit a nec magna. Etiam at quam enim, eget euismod velit. Cras ut bibendum risus. Praesent libero diam, posuere et porttitor sit amet, condimentum ut sem.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc. Nam eget metus magna, id tempor mauris. Pellentesque nec tellus eu nisi tempor feugiat. Cras ornare quam a urna bibendum vitae congue sapien dapibus. Integer lobortis bibendum erat eget suscipit. Nam et mauris et metus commodo suscipit a nec magna. Etiam at quam enim, eget euismod velit. Cras ut bibendum risus. Praesent libero diam, posuere et porttitor sit amet, condimentum ut sem.\r\n');
+(1, '2013-04-01', 'Abyssal & Pellagic', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut faucibus laoreet arcu sed congue. Quisque at lacinia lacus. Suspendisse tempus purus libero, at ullamcorper libero. Curabitur auctor, lorem ornare sagittis sollicitudin, augue turpis posuere odio, nec sagittis orci ligula quis nunc. Nam eget metus magna, id tempor mauris. Pellentesque nec tellus eu nisi tempor feugiat. Cras ornare quam a urna bibendum vitae congue sapien dapibus. Integer lobortis bibendum erat eget suscipit. Nam et mauris et metus commodo suscipit a nec magna. Etiam at quam enim, eget euismod velit. Cras ut bibendum risus. Praesent libero diam, posuere et porttitor sit amet, condimentum ut sem.\r\n');
 
 -- --------------------------------------------------------
 

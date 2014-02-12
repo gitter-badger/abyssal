@@ -15,7 +15,10 @@
 		}
 		public function index()
 		{
+			$this->load->view('header');
+			$this->load->view('navigation');
 			$this->load->view('contact');
+			$this->load->view('footer');
 		}
 		
 		public function post_message(){

@@ -13,12 +13,18 @@
 		
 		public function index()
 		{
+			$this->load->view('header');
+			$this->load->view('navigation');
 			$this->load->view('detailjournal');
+			$this->load->view('footer');
 		}
 		
 		public function getcontent($id){
 			$content['data'] = $this->Journal_Model->get_content($id);
-			$this->load->view('detailjournal');
+			$this->load->view('header');
+			$this->load->view('navigation');
+			$this->load->view('detailjournal',$content);
+			$this->load->view('footer');
 		}
 	}
 ?>

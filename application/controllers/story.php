@@ -16,7 +16,12 @@
 		public function index()
 		{
 			$content['data'] = $this->Story_Model->get_story();
+			
+			
+			$this->load->view('header');
+			$this->load->view('navigation');
 			$this->load->view('story',$content);
+			$this->load->view('footer');
 		}
 	}
 ?>

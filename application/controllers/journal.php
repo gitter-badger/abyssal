@@ -32,7 +32,11 @@
 			$content['data3'] = $text;
 			//print_r($content['data3']);
 			//print_r($content['data']);
+			
+			$this->load->view('header');
+			$this->load->view('navigation');
 			$this->load->view('journal',$content);
+			$this->load->view('footer');
 		}
 		public function bydate($time){
 			$content['data'] = $this->Journal_Model->get_content_by_date($time);
