@@ -2,6 +2,7 @@
 <head>
 <title>Abyssal & Pelagic</title>
 <meta name="description" content="bla bla">
+<link rel="Shortcut Icon" type="image/ico" href="<?php echo base_url(); ?>img/favicon1.ico" />
 <meta name="keywords" content="leather,belt,wallet,goods,bracelet,wristband,custom,customize,kulit,sabuk,dompet,ikat pinggang,gelang,gelang custom,abyssalstore,abyssal,instagram,tumblr,kaskus,salamcopo,crazyhorse,pull up">
 <meta name="author" content="Abdurrahman">
 <meta charset="UTF-8">

@@ -1,16 +1,9 @@
 // JavaScript Document
 $(window).load(function() {
-	$(".splash1").css("display","none");
-	$(".splash2").css("display","none");
-	$(".splash3").css("display","none");
-	$(".splash1").fadeIn(1000);
-	$(".splash2").fadeIn(2000);
-	$(".splash3").fadeIn(4000);
-    $(".splash1").animate({opacity:'0'},4000);	
-	$(".splash2").animate({opacity:'0'},2000);	
-	$(".splash3").animate({opacity:'0',marginTop:'-150'},4000, function(){ 
-		window.location.href = "home";});
-			
+	$(".splash1").hide().fadeIn(1000).animate({opacity:'0'},4000);
+	$(".splash2").hide().fadeIn(2000).animate({opacity:'0'},2000);
+	$(".splash3").hide().fadeIn(4000).animate({opacity:'0',top:'-=40'},4000, function(){ 
+		window.location.href = "home";});		
 });   
 // Toggle Collection Div
 $(document).ready(function(){
