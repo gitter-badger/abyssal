@@ -17,9 +17,7 @@
     	<hr class="sexy_line">
     	<div class="footer-wrapper clearfix">
             <input type="text" class="footer-search" placeholder="Search...">
-            <div class="footer-link-ext trans-all" id="link-ext">
-                <a id="collection-toggle">Gallery Collection</a>
-            </div>
+            <a id="collection-toggle" class="footer-link-ext trans-all">Gallery Collection</a>
             <div class="footer-socmed">
                 <div class="buttons">
                 	<span>follow us : </span>

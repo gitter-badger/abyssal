@@ -18,9 +18,11 @@ $(document).ready(function(){
 	//$("#inner-panel").hide();
   	$("#collection-toggle").toggle(function(){
   		//alert('asucok')
+  		$(this).toggleClass("button-bot-hover");
   		$("#collection").fadeIn(1000);
-  	}, function(){
   		
+  	}, function(){
+  		$(this).toggleClass("button-bot-hover");
   		$("#collection").fadeOut(1000);
   		//$('#collection',"#inner-panel").fadeOut(600);
   	});
