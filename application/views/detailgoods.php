@@ -117,7 +117,7 @@ $(function() {
             <div class="right-side" id="content">
 			<?php foreach($data as $goods) { ?>
             	<div class="foto-container">
-                	<div id="contenta" class="content">
+                	<div id="contenta" class="content clearfix">
                         <div class="item">
                             <div class="thumb_wrapper">
                                 <div class="thumb">
@@ -160,6 +160,5 @@ $(function() {
                 </div>
 			<?php } ?>
             </div>
-            <div class="clear-fix"></div>
         </div>
     </div>

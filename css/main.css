@@ -240,9 +240,9 @@ p
 	awal goods.php 
 	======================================================*/
 	.left-side{
-		width: 20%;
 		float: left;
-		padding: 5% 0 0 5%;
+		display: inline-block;
+		/* padding: 25px 0 0 0; */
 	}
 	.panel{
 		width:200px;
@@ -283,12 +283,14 @@ p
 	.panel ul li a
 	{
 		display:block;	
-	}
+	
+		font-size: 18px;
+}
 	.right-side
 	{
 		float: left;
-		width: 900px;	
-		padding: 25px 0 10px 55px;
+		width: 1000px;	
+		/* padding: 25px 0px 10px 0px; */
 		height: auto;
 		box-sizing: initial;
 }
@@ -303,11 +305,15 @@ p
 	}
 	.item-list
 	{
-		width: 186px;
-		height: 190px;
+		width: 206px;
+		height: 210px;
 		margin: 0 25px 15px 0;	
 		float: left;	
 		list-style: none;
+	}
+	.item-container {
+		margin:0 30px;
+		text-align: center;
 	}
 	.pagination li a
 	{	
@@ -342,7 +348,7 @@ p
 		z-index:2;	
 		width: auto;
 		height: 52px;
-		margin: 118px 0px 0 -15px;
+		margin: 140px 0px 0 -15px;
 		padding: 4px 0 0 20px;
 		float: left;
 		text-align: center;
@@ -414,7 +420,7 @@ p
 		text-align: center;
 		background: #7E4150;
 		display: block;
-		font-size: 30px;
+		font-size: 20px;
 		color: #ECECEC;
 		text-shadow: -1px -1px 0px #380505;
 		-webkit-transition: all 1.5s ease;
@@ -441,7 +447,6 @@ p
 		padding: 0px 25px;
 		border-radius: 5px;
 		box-sizing: border-box;	
-	
 		border: 1px solid #DDD;
 	}
 	.detail li
@@ -450,15 +455,17 @@ p
 	}	
 	.detail li:nth-child(2)
 	{
+		font-size: 12px;
 		margin: 90px 0 10px 0;	
 	}
-	.detail li:nth-child(3)
+	.detail li:nth-child(3) p
 	{
-		text-align: justify;	
+		text-align: justify;
+		font-size: 12px;	
 	}
 	.detail li:nth-child(4)
 	{
-		margin: 20px 0;
+		margin: 10px 0;
 		text-align: center;
 		font-size: 35px;
 		text-shadow: -1px -1px 0px #CECECE;
@@ -471,19 +478,24 @@ p
 	}
 	.detail li:nth-child(5) a,.detail li:nth-child(6) a
 	{
+		font-size: 12px;
+	}
+	.detail li:nth-child(5) h3,.detail li:nth-child(6) h3
+	{
+		font-size: 12px;
 	}
 	.foto-container
 	{
-		display: inline-block;
-		width: 60%;
+		/* display: inline-block; */
+		width: 690px;
 		float: left;	
 	
 }
 	.detail-container
 	{
 		float: left;
-		width: 30%;	
-		margin: 0 0 0 30px;
+		width: 300px;	
+		margin: 0 0 0 0px;
 		box-sizing: initial;
 }
 	/* ===================================================

@@ -6,11 +6,11 @@
 				<div class="contact-info"><span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
-                </span> Abyssal 1 : 0853 1060 2422</div>
+                </span> Abyssal 1 : - </div>
                 <div class="contact-info"><span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
-                </span> Abyssal 2 : 0878 7878 1001</div>
+                </span> Abyssal 2 : - </div>
                 </div>
 
                 <p>If you have something in mind about us or our product, feel free to drop me a mail or directly message us. Happily if you are just passing by and simply want to say hello, then you are more than welcome.  </p>
