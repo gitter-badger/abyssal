@@ -121,8 +121,6 @@ p
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: url(grayscale.svg); /* Firefox 4+ */
-  filter: gray; /* IE 6-9 */
 }
 .logo-img-container img:hover
 {
@@ -468,14 +466,11 @@ p
 	}
 	.detail li:nth-child(5)
 	{
-	    margin: 0 0 20px 0;	
+	    /* margin: 0 0 20px 0; */	
 
 	}
 	.detail li:nth-child(5) a,.detail li:nth-child(6) a
 	{
-	 	text-align:center;
-	 	width: 100%;
-	 	font-size: 16px;
 	}
 	.foto-container
 	{
@@ -577,7 +572,7 @@ p
 		font-family: serif;
 	}
 	.button {
-		display: inline-block;		
+		display: block;		
 		cursor: pointer;
 		border:none;
 		font-family: unica;
@@ -624,7 +619,8 @@ p
 		padding: 10px 100px;
 		margin: 10px 0 20px;
 		font-size: 18px;
-	}
+	
+}
 	.button-sml {
 		padding: 5px 70px;
 		margin: 10px 0 20px;
@@ -1187,6 +1183,4 @@ table.pageme td {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: url(grayscale.svg); /* Firefox 4+ */
-  filter: gray; /* IE 6-9 */
 }

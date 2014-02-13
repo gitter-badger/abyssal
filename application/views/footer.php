@@ -19,13 +19,13 @@
             <input type="text" class="footer-search" placeholder="Search...">
             <a id="collection-toggle" class="footer-link-ext trans-all">Gallery Collection</a>
             <div class="footer-socmed">
-                <div class="buttons">
+                
                 	<span>follow us : </span>
                     <a class="twitter" href="#">Twitter</a> /
                     <a class="facebook" href="#">Facebook</a> /
                     <a class="kaskus" href="#">Kaskus</a> /
                     <a class="instagram" href="#">Instagram</a>
-                </div>
+                
             </div>
         </div>
 	</footer>
