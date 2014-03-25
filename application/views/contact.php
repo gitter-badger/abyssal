@@ -23,6 +23,6 @@
                     <input type="submit" value="send" class="button button-mid button-red">
                 <?php echo form_close(); ?>
             </div>
-            <div class="clear-fix"></div>
+            <div class="clearfix"></div>
         </div>
     

@@ -63,7 +63,7 @@
         </ul>
     </div>
     <div class="desc-container">
-        <i class="fa fa-quote-left fa-fw"></i>Magnificence attire born to be with you! <i class="fa fa-quote-right fa-fw"></i>
+        <i class="fa fa-quote-left fa-fw fa-small"></i>Magnificence attire born to be with you!<i class="fa fa-quote-right fa-fw fa-small"></i>
 	</div>
 </div>
     

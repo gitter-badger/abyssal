@@ -103,6 +103,9 @@ p
 	margin: 0 auto;
 	position: relative;
 }
+.fa-small {
+	font-size: 20px;
+}
 /* awal header */
 .logo-img-container
 {
@@ -204,12 +207,8 @@ p
  clear:both;
  text-align:center;	
  padding: 10px 0 0 0;
- font-style: italic;
- font-size: 40px;
- font-weight: bold;
- color: #744150;
- text-shadow: 1px 1px 3px #5E2727;
- font-family: serif;
+ font-size: 30px;
+ text-shadow: 1px 1px 3px #696464;
 }
 .story-container
 {
@@ -674,9 +673,8 @@ p
 		width: 98%;
 		-webkit-filter: blur(0px);
 		position: relative;	
-	
 		padding: 1%;
-}
+	}
 	.detart .author
 	{
 		padding: 10px 20px;
@@ -782,12 +780,12 @@ p
 		padding: 20px 0 10px 40px;
 	
 		color: #744150;
-}
+	}
 	.contact-info {
 		display: block;
 		margin: 0 20px 10px;
 		font-size: 25px;
-}
+	}
 	
 	input[type="text"]
 	{
