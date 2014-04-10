@@ -11,6 +11,8 @@
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-latest.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-min 1.8.3.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>/js/modernizr.custom.79639.js"></script> 
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/jquery.stickyheader.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>/js/modernizr.custom.79639.js"></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>/js/main.js"></script>
 </head>

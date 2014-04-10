@@ -204,18 +204,19 @@ p
 
 .desc-container
 {
- clear:both;
- text-align:center;	
- padding: 10px 0 0 0;
- font-size: 30px;
- text-shadow: 1px 1px 3px #696464;
+ clear: both;
+text-align: center;
+padding: 20px 0 0 0;
+font-size: 24px;
+color: #744150;
+text-shadow: 1px 1px 3px #5E2727;
 }
 .story-container
 {
 	 clear:both;	
 	 margin: 0px 0 0 0;
 }
-.desc-container .title,.story-container .title
+.desc-container .title,.story-container .title, .backend_main .title
 {
 	font-size: 20px;
 	color: #744150;
@@ -288,7 +289,7 @@ p
 	.right-side
 	{
 		float: left;
-		width: 1000px;	
+		width: 80%;	
 		/* padding: 25px 0px 10px 0px; */
 		height: auto;
 		box-sizing: initial;
@@ -354,9 +355,9 @@ p
 		background: rgba(126, 65, 80, 0.7);
 
 		display: block;
-		font-size: 20px;
-		color: #BDBDBD;
-		text-shadow: -1px 1px 0px #C9C9C9;
+		font-size: 16px;
+		color: #FDFDFD;
+		text-shadow: 0 0 2px #744150;
 		-webkit-transition: all 1.5s ease;
 		-moz-transition: all 1.5s ease;
 		-o-transition: all 1.5s ease;
@@ -773,7 +774,7 @@ p
 	.contact-container form
 	{
 		width: 100%;
-		padding: 20px 0;
+		padding: 10px 0;
 		margin: 0 auto;	
 	}
 	.contact-info-wrap{
@@ -786,11 +787,13 @@ p
 		margin: 0 20px 10px;
 		font-size: 25px;
 	}
-	
+	input {
+		margin: 10px 0;
+	}
 	input[type="text"]
 	{
 		float: left;
-		margin: 0 10px 0 0;
+		margin: 10px 0 0 0;
 		height: 40px;
 		line-height: 40px;
 		padding: 0 0 0 20px;
@@ -832,6 +835,12 @@ p
 	{
 		box-shadow: 0 0 6px #744150;	
 	}
+	.contact-container input[type="text"] {
+		margin:10px 10px 0 0; 
+	}
+	.footer-search  {
+		margin: 0 10px 0 0 !important;
+	}
 	input.input-blck{
 		width:100% !important;
 		margin:0 0 10px 0;
@@ -869,6 +878,172 @@ p
 	
     text-align: center;
 }
+
+/* ====================================================
+					awal backend.php
+	=======================================================*/
+	.backend_container {
+		height:auto;
+		min-height:100%;
+	}
+	.backend_nav {
+		width:15%;
+		height:100%;
+		position:fixed;	
+		background: #744150;
+		padding: 10px 0px;
+		box-shadow: 0 0 2px #361D24;
+		z-index: 200;
+	}
+		.backend_nav .title {
+			color: #FFF;
+			font-size: 20px;
+			text-align: center;
+			display: block;
+			padding: 10px;
+		}
+		.backend_nav ul li {
+			list-style:none;
+			position: relative;
+		}
+		.backend_nav ul li a {
+			width:100%;
+			height: 40px;
+			background: #744150;  
+			color: #FFF;  
+			box-shadow: 0 0 2px #361D24;
+			display:block;
+			line-height:40px;
+			text-align:center;
+		}
+		.backend_nav ul li a:hover{			
+			color: #744150;
+			box-shadow: 0 0 3px #744150;
+			background: rgba(163, 126, 137, 0.85);
+			text-shadow: 0 0 2px #744150;
+		}
+		.backend_nav > ul >li > ul {
+			position: absolute;
+			left: 100%;
+			top: 0;
+			width: 100%;
+			display:none;
+			background: #744150;  
+			color: #FFF;  
+			box-shadow: 0 0 2px #361D24;
+		}
+		.backend_nav > ul > li:hover ul {
+			display:block;
+		}
+	.backend_main {
+		margin:0 0 0 15%;
+		min-width:85%;
+		min-height:100%;
+		padding: 30px;
+		height:auto;
+		overflow:auto;
+	}
+	.backend_main .title {
+		font-size: 40px;
+		color: #744150;
+	}
+	.backend_main input {
+		float: none;
+		display: inline-block;
+	}
+	.backend_main .input-wrap {
+		margin: 5px 0;
+	}
+	.backend_main .input-wrap label{
+		display: inline-block;
+		margin: 0 20px 0 0;
+	}
+
+table {
+	margin: 0px;
+	width: 100%;
+	border: 1px solid rgba(116, 65, 80, 0.3);
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    width: 100%;
+    background: #fff;
+}
+td, th {
+    padding: 0.75em 1.5em;
+    text-align: left;
+}
+	td.err {
+		background-color: #e992b9;
+		color: #fff;
+		font-size: 0.75em;
+		text-align: center;
+		line-height: 1;
+	}
+th {
+    background-color: #744150;
+    color: #fff;
+    white-space: nowrap;
+}
+tbody th {
+	background-color: #2ea879;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+tbody tr:hover {
+    background-color: rgba(116, 65, 80, 0.16);
+}
+
+/* For appearance */
+.sticky-wrap {
+	overflow-x: auto;
+	overflow-y: auto;
+	position: relative;
+	width: 100%;
+}
+.sticky-wrap .sticky-thead,
+.sticky-wrap .sticky-col,
+.sticky-wrap .sticky-intersect {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .125s ease-in-out;
+	z-index: 50;
+	width: auto; /* Prevent table from stretching to full size */
+}
+	.sticky-wrap .sticky-thead {
+		box-shadow: 0 0.25em 0.1em -0.1em rgba(0,0,0,.125);
+		z-index: 100;
+		width: 100%; /* Force stretch */
+	}
+	.sticky-wrap .sticky-intersect {
+		opacity: 1;
+		z-index: 150;
+
+	}
+		.sticky-wrap .sticky-intersect th {
+			background-color: #666;
+			color: #eee;
+		}
+.sticky-wrap td,
+.sticky-wrap th {
+	box-sizing: border-box;
+}
+
+/* Not needed for sticky header/column functionality */
+td.user-name {
+	text-transform: capitalize;
+}
+.sticky-wrap.overflow-y {
+	overflow-y: auto;
+	max-height: 80vh;
+}
+
+
+	
+	
 /* ========
 akhir main 
 ===========*/

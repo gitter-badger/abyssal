@@ -15,7 +15,58 @@
 		}
 		public function index()
 		{
-			$this->load->view('backend');
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_dashboard');
+		}
+		public function view_goods()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_goods_view');
+		}
+		public function add_goods()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_goods_add');
+		}
+		
+		public function manage_message()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_manage_message');
+		}
+		public function edit_contact()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_edit_contact');
+		}
+		public function story()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_story');
+		}
+		public function view_blog()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_blog_view');
+		}
+		public function add_blog()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_blog_add');
+		}
+		public function setting()
+		{
+			$this->load->view('header');
+			$this->load->view('backend_sidebar');
+			$this->load->view('backend_setting');
 		}
 	}
 ?>
