@@ -2,7 +2,7 @@
 <footer class="footer-box footer-container">
     <div id="collection">
         <nav id="inner-panel">
-            <h3>Categories :</h3>
+            <h3 class="title">Categories :</h3>
             <ul>
                 <li class="trans-all"><a href="<?php echo base_url(); ?>goods/browse/Wallet">wallet</a></li>
                 <li class="trans-all"><a href="<?php echo base_url(); ?>goods/browse/Bag">bag</a></li>
